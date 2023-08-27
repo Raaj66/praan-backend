@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",            // The version of ECMAScript to target
+    "module": "CommonJS",          // The module system to use (e.g., CommonJS, ES6)
+    "outDir": "./dist",            // The output directory for compiled files
+    "strict": true,                // Enable all strict type-checking options
+    "esModuleInterop": true        // Allows you to use ES6 import syntax with CommonJS modules
+  },
+  "include": ["src/**/*.ts"],      // Specifies the files to include in compilation
+  "exclude": ["node_modules"]      // Specifies the files to exclude from compilation
+}
